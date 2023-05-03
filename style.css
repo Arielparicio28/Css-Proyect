@@ -1,0 +1,128 @@
+* {
+  margin: auto;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(235, 235, 227);
+  width: 100%;
+  height: 100vh;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  align-self: center;
+  border-radius: 15px;
+  width: 300px;
+  height: 500px;
+}
+a {
+  color: blue;
+}
+a:hover {
+  color: mediumslateblue;
+}
+.title {
+  font-weight: bold;
+  text-align: center;
+}
+.subtitle {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+.btn-text {
+  display: flex;
+  float: right;
+  margin-top: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+.google-btn,
+.fb-btn {
+  background-color: white;
+  height: 45px;
+  border: solid 2px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
+.google-btn {
+  width: 247px;
+  border-color: #e3e1e1;
+  padding: 0px 40px;
+}
+.fb-btn {
+  width: 45px;
+  border-color: blue;
+}
+.or {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  width: 200px;
+  background-color: white;
+}
+span {
+  font-weight: bold;
+  text-align: center;
+  background-color: white;
+  margin-top: -15px;
+  width: 10%;
+}
+b {
+  font-weight: bold;
+  text-align: center;
+  color: #9c9a9b;
+}
+img[alt="Google"] {
+  display: flex;
+  align-self: center;
+  float: left;
+  width: 30px;
+  height: 30px;
+}
+img[alt="FB"] {
+  width: 33px;
+  height: 33px;
+}
+input {
+  margin-top: 10px;
+  width: 300px;
+  height: 45px;
+  border-radius: 10px;
+  border: solid 1px #9c9a9b;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  z-index: -2;
+}
+.email-login img {
+  display: flex;
+  float: right;
+  margin-left: 295px;
+  margin-top: -52px;
+  position: fixed;
+  width: 20px;
+  height: 20px;
+}
+.cta-btn {
+  background-color: #4745b6;
+  border: none;
+  width: 320px;
+  height: 45px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+.cta-btn:hover {
+  background-color: #9c9a9b;
+  color: white;
+}
+.forget-pass {
+  width: 300px;
+  text-align: right;
+}
